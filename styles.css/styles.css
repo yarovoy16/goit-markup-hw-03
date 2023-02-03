@@ -30,6 +30,9 @@ p,h1,h2{
 .link{
   text-decoration: none;
 }
+img{
+  display: block;
+}
 .container{
   width: 1158px;
   outline: 2px solid #a7a658;
@@ -39,7 +42,8 @@ p,h1,h2{
 }
 .section {
   padding-bottom: 120px;
-  outline:1px solid #c1ad3e;
+  padding-top: 120px;
+  /* outline:1px solid #c1ad3e; */
 }
 .flex-container{
   display: flex;
@@ -106,13 +110,16 @@ p,h1,h2{
 }
 /* Hero */
 .hero{
+  width: 1440px;
   margin-right: auto;
   margin-left: auto;
-  width: 1440px;
   /* height: 600px; */
-  background-color:#2F303A;
-  padding-top: 200px;
   text-align: center;
+}
+.section-hero{
+  padding-top: 100px;
+  padding-bottom: 188px;
+  background-color: #2F303A;
 }
 
 
@@ -140,7 +147,7 @@ p,h1,h2{
   font-weight: 500;
   font-size: 16px;
   border: none;
-  margin-bottom: 188px;
+  
 
 }
 .button-hero:hover{
@@ -236,14 +243,12 @@ p,h1,h2{
 }
 .flex-card{
   width: 264px;
-  outline: 1px dashed blue;
+  /* outline: 1px dashed blue; */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
-.card-foto{
-  margin-bottom: 32px;
-}
-.box-card{
-  outline: 1px solid tomato;
-}
+
 
 .socials{
   display: flex;
@@ -254,8 +259,10 @@ p,h1,h2{
 .socials li:not(:last-child){
   margin-right: 24px;
 }
-.box-card{
+.box-card {
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* Customers */
 .flex-customers{
@@ -281,7 +288,7 @@ p,h1,h2{
   letter-spacing: 0.02em;
   color: var(--CORNFLOWER);
   margin-bottom: 0;
-  margin-top: 16px;
+  /* margin-top: 16px; */
 }
 .media-footer{
   font-weight: 500;
@@ -297,18 +304,22 @@ p,h1,h2{
   flex-wrap: wrap;
 }
 .footer-box1{
-  width: 264px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 156px;
+  width:264px;
+
+}
+.footer-box1 a {
+  display: inline-block;
 }
 .footer-box2{
-  margin-left: 120px;
-  margin-top: 100px;
+  padding-left: 120px;
+  padding-top: 100px;
 }
 .footer-box3{
-  margin-bottom: 100px;
-  margin-left: 80px;
+  padding-bottom: 100px;
+  padding-left: 80px;
 }
 .links-footer{
   display: flex;
