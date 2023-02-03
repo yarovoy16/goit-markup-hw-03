@@ -109,9 +109,8 @@ p,h1,h2{
   margin-right: auto;
   margin-left: auto;
   width: 1440px;
-  height: 600px;
+  /* height: 600px; */
   background-color:#2F303A;
-  padding: 0 auto;
   padding-top: 200px;
   text-align: center;
 }
@@ -141,6 +140,7 @@ p,h1,h2{
   font-weight: 500;
   font-size: 16px;
   border: none;
+  margin-bottom: 188px;
 
 }
 .button-hero:hover{
