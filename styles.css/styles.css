@@ -26,6 +26,7 @@ ul{
 }
 p,h1,h2{
   margin-top: 0px;
+  margin-bottom: 0;
 }
 .link{
   text-decoration: none;
@@ -35,14 +36,14 @@ img{
 }
 .container{
   width: 1158px;
-  outline: 2px solid #a7a658;
+  /* outline: 2px solid #a7a658; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 .section {
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   /* outline:1px solid #c1ad3e; */
 }
 .flex-container{
@@ -94,7 +95,7 @@ img{
   padding-top: 24px;
   padding-bottom: 24px;
   
-  outline: 1px solid tomato;
+  /* outline: 1px solid tomato; */
   display: block;
 
 
@@ -110,7 +111,7 @@ img{
 }
 .line {
   border-bottom: 1px solid #E7E9FC;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 /* Hero */
 .section-hero {
@@ -181,6 +182,9 @@ img{
 .element-advantage:not(:last-child){
   margin-right: 24px;
 }
+.section-advantage{
+  padding-top: 94px;
+}
 
 
 .second-title {
@@ -200,21 +204,18 @@ img{
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--NAVY-BLUE);
-
   margin-top: 0px;
   margin-bottom: 8px;
-
 }
+
 .text-description{
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--SLATE);
-
-  margin-top: 0px;
-  margin-bottom: 8px;
 }
+
 
 /* What we do */
 .flex-works{
@@ -253,6 +254,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .socials li:not(:last-child){
@@ -278,7 +280,6 @@ img{
   background-color: var(--NAVY-BLUE);
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-left: 156px;
 }
 .accent-logo-footer{
   color:var(--CLOUD)
@@ -330,12 +331,12 @@ img{
 
 
 /* Potfolio */
+
 .buttons-main{
   display: flex;
   flex-wrap: wrap;
   outline: 1px dashed blue;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 .buttons-main li:not(:last-child){
@@ -367,8 +368,8 @@ img{
 }
 .box-description{
   padding-left: 16px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .examples-item:not(:nth-child(3n)){
@@ -380,6 +381,7 @@ img{
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   background: #FFF;
   width: calc((100% - 2 * 24px)/3);
+
 }
 .examples-item:nth-last-child(-n+3){
   margin-bottom: 0px;
